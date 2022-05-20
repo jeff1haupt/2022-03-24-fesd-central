@@ -1,0 +1,21 @@
+
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#first {
+    color:rgb(146, 30, 30);
+}
+
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.header3 {
+    color:chartreuse;
+}

@@ -1,0 +1,102 @@
+/* 
+
+margin
+padding
+color 
+background
+border 
+font-family
+font-size
+text-decoration
+:hover
+display
+
+
+*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .9rem;
+}
+
+.container {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.navbar li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.div-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box1, #box2, #box3 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #333;
+    margin: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .9rem;
+    box-sizing: border-box;
+}
+
+#box1 {
+    /* margin: 30px 0px 10px 5px; top,right, bottom, left */
+    background-color: coral;
+    order: 2;
+}
+
+#box1 p {
+    padding: 20px; /* this impacts all around the paragraph */
+    color: #fff;
+    font-weight: bold;
+    margin: 0; 
+}
+
+#box2 {
+    background-image: url('https://petkeen.com/wp-content/uploads/2021/05/golden-retriever_Shutterstock_Olena-Brodetska-760x505.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    order: 1;
+}
+
+#box3 {
+    padding: 20px;
+    background-color:gold;
+    order: 3;
+}
+
+#box3 a:link, #box3 a:visited {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#box3 a:hover {
+    background-color:darkblue;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#box3 a:active {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
