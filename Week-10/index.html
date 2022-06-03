@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Week 10 - DOM and JavaScript</title>
+</head>
+<body>
+    <div class="container">
+        <section id="one" class="box boxShadow"></section>
+        <section id="two" class="box boxShadow"></section>
+        <section id="three" class="box boxShadow"></section>
+    </div>
+    <div class="container">
+        <section id="one-b" class="buttons">
+            <button id="drop-shadow-one">No shadow</button>
+            <button id="change-color-one">Change color</button>
+            <button id="delete-one" onclick="deleteBox()">Delete Box</button>
+        </section>
+        <section id="two-b" class="buttons">
+            <button id="drop-shadow-two">No shadow</button>
+            <button id="change-color-two">Change color</button>
+            <button id="delete-two">Delete Box</button>
+        </section>
+        <section id="three-b" class="buttons">
+            <button id="drop-shadow-three">No shadow</button>
+            <button id="change-color-three">Change color</button>
+            <button id="delete-three">Delete Box</button>
+        </section>
+    </div>
+    <div class="container">
+        <section id="one-c" class="buttons">
+            <button id="addBox">Add box</button>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

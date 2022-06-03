@@ -1,0 +1,52 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --maximum-yellow: #F8F32B;
+    --manatee: #8D99AE;
+    --space-cadet: #2B2D42;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box, .buttons {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+}
+
+.boxShadow {
+    border: 2px solid var(--black);
+    box-shadow: 0px 0px 25px var(--manatee);
+}
+
+.boxBorder {
+    border: 2px solid var(--black);
+}
+
+.buttons button {
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+    padding: 15px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--maximum-yellow);
+    color: var(--black)
+}
+
+.buttons button:hover {
+    background-color: var(--black);
+    color: var(--maximum-yellow);
+}
+
+
+
+
