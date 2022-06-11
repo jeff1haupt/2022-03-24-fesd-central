@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<style>
+    .paragraphs {
+        background-color: red;
+        color: white;
+        height: 200px;
+    }
+
+    table { 
+        width: 600px; 
+        margin: 20px auto;
+        box-sizing: border-box;
+        
+    }
+
+    tr {
+        height: 200px;
+    }
+
+    td {
+        width: 200px;
+        border: 2px solid #aaa;
+    }
+
+    .XandO {
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        background-color: blue;
+        height: 200px;
+        width: 200px;
+    }
+
+</style>
+<body>
+
+    <!-- <p id="first-paragraph" class="paragraphs">This is a paragraph</p> -->
+    
+    <table id="tic-tac-toe">
+        <tr>
+            <td id="1"></td>
+            <td id="2"></td>
+            <td id="3"></td>
+        </tr>
+        <tr>
+            <td id="4"></td>
+            <td id="5"></td>
+            <td id="6"></td>
+        </tr>
+        <tr>
+            <td id="7"></td>
+            <td id="8"></td>
+            <td id="9"></td>
+        </tr>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="  crossorigin="anonymous"></script>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="api_call.js"></script>
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>
